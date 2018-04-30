@@ -8,3 +8,5 @@ service:
   networkMode: awsvpc
   environment:
     BACKEND_API: "http://api.internal.service:80"
+  tags:
+    VERSION: v0.0.1                    # Create a tag with key `FOO` and value `bar`
